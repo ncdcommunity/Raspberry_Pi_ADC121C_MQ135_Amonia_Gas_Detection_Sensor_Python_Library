@@ -1,9 +1,9 @@
 
-# ADC121C_MQ135
 [![ADC121C_MQ135](ADC121C_I2CGAS_MQ135.png)](https://store.ncd.io/product/mq-135-nh3-amonia-benzene-alcohol-gas-sensor-adc121c-12-bit-adc-i%C2%B2c-mini-module/).
 
 # ADC121C_MQ135
-ADC121C_MQ135 is a NH3 Amonia Benzene Alcohol Gas Sensor.ADC121C 12-Bit ADC I²C Mini Moduler.
+
+The MQ-135 is capable of sensing ammonia (10ppm-300ppm), benzene (10ppm-1,000ppm), and alcohol (10ppm-300ppm) air concentration levels. The ideal sensing condition for the MQ135 is 20°C ±2°C at 65% ±5% humidity.
 This Device is available from www.ncd.io 
 
 [SKU: ADC121C_MQ135_I2CS]
@@ -24,12 +24,10 @@ Hardware needed to interface ADC121C_MQ135 Sensor With Raspberry Pi :
 Download and install smbus library on Raspberry pi. Steps to install smbus are provided at:
 
 https://pypi.python.org/pypi/smbus-cffi/0.5.1
+
 Download (or git pull) the code in pi. Run the program.
 
 ```cpp
-
 $> python ADC121C_MQ135.py
-
 ```
-
 The lib is a sample library, you will need to calibrate the sensor according to your application requirement.
